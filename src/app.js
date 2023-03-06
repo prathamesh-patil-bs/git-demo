@@ -12,6 +12,6 @@ app.post('/feature1', (req, res) => {
 
 app.put('/', (req, res) => {
   res.send('Feature 3');
-})
+}) 
 
 app.listen(4000, () => { console.log('Server is up and running at 4000') });
