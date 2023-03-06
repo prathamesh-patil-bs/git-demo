@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/feature1', (req, res) => {
-  res.send('Feature 1 Completed');
+  res.send('FEATURE 1 COMPLETED');
 })
 
 app.listen(4000, () => { console.log('Server is up and running at 4000') });
